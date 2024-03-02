@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('bg_image.png'); /* Replace 'background.png' with your PNG image file */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif; /* Font family for text */
+    color: #000000; /* Text color - white in this case */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

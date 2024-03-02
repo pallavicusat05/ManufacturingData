@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classification Prediction Tool</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body >
+        <div class="content">
+            <div>
+                <h1 align="center">
+                    Welcome to semiconductor classification prediction tool
+                </h1>
+            </div>
+
+            <form method="post" action="/Model">
+                <div>
+                    <input type="number" name="features_59" placeholder="features_59">
+                    <input type="number" name="features_76" placeholder="features_76">
+                    <input type="number" name="features_79" placeholder="features_79">
+                    <input type="number" name="features_95" placeholder="features_95">
+                    <input type="number" name="features_100" placeholder="features_100">
+                    <input type="number" name="features_114" placeholder="features_114">
+                    <input type="number" name="features_129" placeholder="features_129">
+                    <input type="number" name="features_159" placeholder="features_159">
+                    <input type="number" name="features_160" placeholder="features_160">
+                    <input type="number" name="features_210" placeholder="features_210">
+                    <input type="number" name="features_468" placeholder="features_468">
+                    <input type="number" name="features_511" placeholder="features_511">
+                    <input type="number" name="features_589" placeholder="features_589">
+                </div>>
+                <div align="center">
+                    <button> Predict </button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
